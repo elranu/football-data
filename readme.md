@@ -14,6 +14,15 @@ It just have two REST actions:
 
 The DB migrations is done automatically
 
+## Features
+1. Async Calls
+2. Swagger
+3. Entity Framework Core
+4. Unit testing with InMemory EntityFramework DB (xUnit)
+5. HttpClient
+6. Repository and Unit of Work
+7. DI
+
 ## Api Responses by definition:
  
  1. The API responses for /import-league/{leagueCode} are:
@@ -32,13 +41,5 @@ The DB migrations is done automatically
  
     If the given leagueCode is not present into the DB, it should respond an HTTP Code 404.
  
-## Features
-1. Async Calls
-2. Swagger
-3. Entity Framework Core
-4. Unit testing with InMemory EntityFramework DB (xUnit)
-5. HttpClient
-6. Repository and Unit of Work
-7. DI
 
 Complementary reading: https://medium.com/swlh/building-a-nice-multi-layer-net-core-3-api-c68a9ef16368
